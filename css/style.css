@@ -946,33 +946,28 @@ https://codepen.io/rosswaycaster/pen/YPQzap
   .fa-list.modify {
     display: block;
   }
-  .nav {
+    .nav {
     width: 100%;
     height: auto;
-    float: left;
+    background-color: white;
   }
   ul {
-    padding-left: 0;
+    width: 100%;
   }
   ul li {
     width: 100%;
-    float: none;
+    float: right;
+    padding-right: 0;
   }
   ul li a {
     width: 100%;
     display: block;
     border-bottom: 2px solid #000;
+    padding-right: 1px;
   }
-  ul li ul {
-    position: static;
-  }
-  ul li ul li a {
-    background: black;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-  }
-  .list a {
+  a {
     background: 000;
+    padding-left: 0;
   }
   .fa-list.modify {
     display: block;
