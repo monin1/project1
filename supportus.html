@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link href="css/style.css" rel="stylesheet">
+  
+</head>
+
+<body class="body">
+  <header class="mainheader">
+
+    <div class="menu">
+      <span class="fa fa-list modify"></span>
+    </div>
+
+    <a href = "index.html"> <img class="logo" alt="das_logo" src="images/das.png"></a>
+	
+	
+	<div class="search_bar">
+			<input type="text" placeholder="Search..." name="search">
+		</div>
+	
+		<button class = "button1" onclick="document.getElementById('loginNow').style.display='block'" style="width:auto;">Login</button>
+
+		<div id="loginNow" class="modal">
+  
+	<form class="modal-content animate" action="#">
+		<div class="imgcontainer">
+		
+			<span onclick="document.getElementById('loginNow').style.display='none'" class="close" title="Close Modal">&times;</span>
+			
+		
+    </div>
+
+    <div class="container">
+		
+		<h1> LogIn</h1>
+		
+		<h3> Your are about to log in your account. </h3>
+		
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname" required>
+
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+        
+		<button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('loginNow').style.display='none'" class="cancelbtn1">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+<button class = "button2" onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="signUp" class="modal">
+  <span onclick="document.getElementById('signUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+  
+  <form class="modal-content2" action="#">
+  
+    <div class="container2">
+	
+      <h1>Sign Up</h1>
+	  
+      <h3> You are about to create an account.</h3>
+	  
+      <hr>
+	  
+      <label class = "email" for="email"><b>Email</b></label>
+      <input class = "inputemail" type="text" placeholder="Enter Email" name="email" required>
+
+      <label class = "password" for="psw"><b>Password</b></label>
+      <input class = "inputpassword" type="password" placeholder="Enter Password" name="psw" required>
+
+      <label class = "rpassword" for="psw-repeat"><b>Repeat Password</b></label>
+      <input class = "inputrpassword" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input class = "checkbox" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('signUp').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+	
+	
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Job</a></li>
+          </ul>
+        </li>
+        <li><a href="aboutus.html">About Us</a>
+          <ul>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </li>
+        <li><a href="ndis.html">NDIS</a>
+          <ul>
+            <li><a href="#">About NDIS</a></li>
+            <li><a href="#">Preparing NIDS</a></li>
+          </ul>
+        </li>
+        <li><a href="contactus.html">Contact Us</a>
+        </li>
+        <li><a href="supportus.html">Support Us</a>
+          <ul>
+            <li><a href="#">Donate</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="maincontent">
+    <div class="about-content">
+      <article class="topcontent">
+	  
+        <header>
+          <h2> We Thank you so much for your danation to our community to help us </h2>
+        </header>
+		
+		
+        
+	<div class="donation-container">
+            
+            <div class="donation-box">
+			
+	            <div class="title">Donation Information</div>
+	            
+	            <div class="fields">
+		            <input type="text" id="firstName" placeholder="First Name"> </input>
+		            <input type="text" id="lastName" placeholder="Last Name"> </input>
+		            <input type="text" id="email" placeholder="Email"> </input>
+	            </div>
+	            
+	            <div class="amount">
+		            <div class="button">$1</div>
+		            <div class="button">$5</div>
+		            <div class="button">$10</div>
+		            <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+	            </div>
+	            
+	            <div class="switch">
+					<input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+					<label for="one-time" class="switch-label switch-label-off">One-Time</label>
+					<input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+					<label for="monthly" class="switch-label switch-label-on">Monthly</label>
+					<span class="switch-selection"></span>
+			    </div>
+			    
+			    <div class="checkboxes">
+					<label for="receipt">Email Me A Receipt</label>
+					<input type="checkbox" id="receipt" class="checkbox" />
+					<br />
+					
+					<label for="list">Add Me To Email List</label>
+					<input type="checkbox" id="list" class="checkbox" />
+			    </div>
+			    
+			    <div class="confirm">
+				    
+			    </div>
+	            
+	            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+            </div>
+            
+        </div>
+        <content>
+          <div class="card">
+            <div class="card1">
+              <image class="image" src="images/Dr_John_Gilroy.png" alt="John" style="width:100%"></image>
+              <p class="name">Donate view phone</p>
+              <p class="position"> Call </p>
+              <p class="Dgree">Contact us on .....</p>
+              <div class="actions">
+                <a href="twiter.com"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="mailto:info@magnt.net.au"><i class="fa fa-envelope fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card1">
+              <image class="image" src="images/Heather_Jensen.png" alt="Jensen"></image>
+              <p class="name">Donate in Cash </p>
+              <p class="position"> Contact </p>
+              <p class="Dgree">xy to </p>
+              <div class="actions">
+                <a href="twiter.com"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="mailto:info@magnt.net.au"><i class="fa fa-envelope fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="card1">
+              <image class="image" src="images/Janet_Wright.png" alt="Janet"></image>
+              <p class="name">Donate by Ckech</p>
+              <p class="position">Treasurer</p>
+              <p class="Dgree">To commonwealth Bank</p>
+              <div class="actions">
+                <a href="twiter.com"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="linkedin.com"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="mailto:info@magnt.net.au"><i class="fa fa-envelope fa-lg"></i></a>
+              </div>
+            </div>
+            
+          </div>
+
+        </content>
+      </article>
+    </div>
+  </div>
+  
+  
+  <footer class="mainfooter">
+	
+		<p>Contact information: <a href="#">someone@example.com</a> Emergency contact: 0889531422</p>
+			
+	
+			<a href="#" target="_blank"><img src="images/logos/fb.png" alt="LogoFacebook" title="imageFacebook"/></a>
+			
+				<a href="#" target="_blank"><img src="images/logos/twitter.png" alt="LogoTwitter" title="imageTwitter"/></a>
+				<a href="#" target="_blank"><img src="images/logos/youtube.png" alt="LogoYoutube" title="imageYoutube"/></a>
+				<a href="#" target="_blank"><img src="images/logos/linkedin.png" alt="LogoLinkedin" title="imageLinkedin"/></a>
+				<a href="#" target="_blank"><img src="images/logos/google.png" alt="Google" title="imageGoogle"/></a>
+				
+				<a href="#" target="_blank"><img src="images/logos/charity-tick.png" alt="suppors" title="imageOfSupports"/></a>
+		<p>copyright &copy; DAS</p>
+		
+	</footer>
+
+</body>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="javascripts/click.js"></script>

@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  max-height: 380px;
+  margin: 10px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.name {
+  color: black;
+  font-size: 28px;
+  line-height: 0px;
+}
+
+.position {
+  color: grey;
+  font-size: 19px;
+  line-height: 0px;
+}
+
+.dgree {
+  color: black;
+  font-size: 17px;
+  line-height: 15px;
+}
+
+.info {
+  text-align: justify;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.actions {
+  width: 100%;
+  background-color: black;
+  padding: 6px;
+}
+
+.actions a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 1em;
+}
+
+.card a:hover {
+  color: #70F1FA;
+}
