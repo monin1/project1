@@ -31,3 +31,17 @@ $(document).ready(function() {
   });
 });
 
+window.onscroll = function() {goTopFunction()};
+
+function goTopFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        document.getElementById("BackToTop").style.display = "block";
+    } else {
+        document.getElementById("BackToTop").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
