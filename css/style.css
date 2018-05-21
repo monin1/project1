@@ -158,8 +158,8 @@ span.psw {
 }
 
 .email, .inputemail, .password, .inputpassword, .rpassword, .inputrpassword, .checkbox{
-	width: 20px;
-	margin: 10px 2000px 0 0;
+	width: 100%;
+	margin: 10px 0px 0 0;
 }
 
 .close:hover,
