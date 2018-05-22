@@ -244,6 +244,7 @@ a {
 .topnav {
   width: 100%;
   background-color: white;
+	opacity: 0.9%;
   height: 50px;
   float: right;
 }
