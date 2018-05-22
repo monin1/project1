@@ -238,7 +238,9 @@ a {
 }
 
 
-.navbar {}
+.navbar {
+	background-image: url(images/das2.png);
+}
 
 .topnav {
   width: 100%;
