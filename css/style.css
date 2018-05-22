@@ -538,8 +538,8 @@ ul li a:hover {
 }
 
 .info {
-  background: #8C9097;
-  border: 1.5px solid #F48A10;
+  background: #DFDFDF;
+  border: 1.5px solid #DFDFDF;
 }
 
 .info h1 {
@@ -547,7 +547,7 @@ ul li a:hover {
 }
 
 .infoform {
-  background: #BCB9B6;
+  background: white;
 }
 
 .infoform form label {
@@ -564,7 +564,7 @@ ul li a:hover {
   font-weight: bold;
   width: 100%;
   padding: 3%;
-  border: 1.5px solid #F48A10;
+  border: 1.5px solid #DFDFDF;
 }
 
 textarea{
