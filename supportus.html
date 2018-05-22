@@ -20,88 +20,80 @@
     </div>
 
     <a href = "index.html"> <img class="logo" alt="das_logo" src="images/das.png"></a>
-	
-	
-	<div class="search_bar">
-			<input type="text" placeholder="Search..." name="search">
-		</div>
-	
-		<button class = "button1" onclick="document.getElementById('loginNow').style.display='block'" style="width:auto;">Login</button>
+		<div class="navbar">
+			<nav class="topnav">
+				<div class="search_bar">
+					<input type="text" placeholder="Search..." name="search">
+				</div>
 
-		<div id="loginNow" class="modal">
-  
-	<form class="modal-content animate" action="#">
-		<div class="imgcontainer">
-		
-			<span onclick="document.getElementById('loginNow').style.display='none'" class="close" title="Close Modal">&times;</span>
-			
-		
-    </div>
+				<button class="button1" onclick="document.getElementById('loginNow').style.display='block'" style="width:auto;">Login</button>
 
-    <div class="container">
-		
-		<h1> LogIn</h1>
-		
-		<h3> Your are about to log in your account. </h3>
-		
-		<label for="uname"><b>Username/Email</b></label>
-		<input type="text" placeholder="Enter Username" name="uname" required>
+				<div id="loginNow" class="modal">
 
-		<label for="psw"><b>Password</b></label>
-		<input type="password" placeholder="Enter Password" name="psw" required>
-        
-		<button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
+					<form class="modal-content animate" action="#">
+						<div class="imgcontainer">
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('loginNow').style.display='none'" class="cancelbtn1">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
+							<span onclick="document.getElementById('loginNow').style.display='none'" class="close" title="Close Modal">&times;</span>
 
 
-<button class = "button2" onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
+						</div>
 
-<div id="signUp" class="modal">
-  <span onclick="document.getElementById('signUp').style.display='none'" class="close" title="Close Modal">&times;</span>
-  
-  <form class="modal-content2" action="#">
-  
-    <div class="container2">
-	
-      <h1>Sign Up</h1>
-	  
-      <h3> You are about to create an account.</h3>
-	  
-      <hr>
-	  
-      <label class = "email" for="email"><b>Email</b></label>
-      <input class = "inputemail" type="text" placeholder="Enter Email" name="email" required>
+						<div class="container">
 
-      <label class = "password" for="psw"><b>Password</b></label>
-      <input class = "inputpassword" type="password" placeholder="Enter Password" name="psw" required>
+							<h1> LogIn</h1>
 
-      <p <label class = "rpassword" for="psw-repeat"><b>RepeatPassword</b></label> </p>
-      <input class = "inputrpassword" type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-      <label>
-        <input class = "checkbox" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
+							<h3> Your are about to log in your account. </h3>
 
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+							<label for="uname"><b>Username</b></label>
+							<input type="text" placeholder="Enter Username" name="uname" required>
 
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('signUp').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
-    </div>
-  </form>
-</div>
-	
+							<label for="psw"><b>Password</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+
+							<button type="submit">Login</button>
+							<label>
+		        <input type="checkbox" checked="checked" name="remember"> Remember me
+		      </label>
+						</div>
+
+						<div class="container" style="background-color:#f1f1f1">
+							<button type="button" onclick="document.getElementById('loginNow').style.display='none'" class="cancelbtn1">Cancel</button>
+							<span class="psw">Forgot <a href="#">password?</a></span>
+						</div>
+					</form>
+				</div>
+
+				<button class="button2" onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
+
+				<div id="signUp" class="modal">
+					<span onclick="document.getElementById('signUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+					<form class="modal-content2" action="#">
+
+						<div class="container2">
+							<h1>Sign Up</h1>
+							<h3> You are about to create an account.</h3>
+							<hr>
+							<label class="email" for="email"><b>Email</b></label>
+							<input class="inputemail" type="text" placeholder="Enter Email" name="email" required>
+
+							<label class="password" for="psw"><b>Password</b></label>
+							<input class="inputpassword" type="password" placeholder="Enter Password" name="psw" required>
+
+							<p <label class="rpassword" for="psw-repeat"><b>Repeat Password</b></label>
+							</p>
+							<input class="inputrpassword" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+							<label>
+		        <input class = "checkbox" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+		      </label>
+							<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+							<div class="clearfix">
+								<button type="button" onclick="document.getElementById('signUp').style.display='none'" class="cancelbtn">Cancel</button>
+								<button type="submit" class="signupbtn">Sign Up</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</nav>
 	
     <nav class="nav">
       <ul>
@@ -121,6 +113,7 @@
         </li>
       </ul>
     </nav>
+</div>
   </header>
 
   <div class="maincontent">
