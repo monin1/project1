@@ -515,6 +515,19 @@ ul li a:hover {
   color: #70F1FA;
 }
 
+.e-name{
+font-size: 18px;
+margin: 0;
+}
+
+.e-date{
+  font-size: 12px;
+}
+
+.e-location{
+  font-size: 13px;
+}
+
 
 
 
