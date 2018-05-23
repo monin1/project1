@@ -21,11 +21,11 @@ body {
 
 
 }
-/* readmore */
+/* readmore button*/
 .btn-container{
   margin: auto;
-  height:25px;
-  width:150px;
+  height:50px;
+  width:190px;
 
 }
 .logo {
@@ -37,7 +37,28 @@ body {
 .text{
 display:none;
 }
-/* readmore */
+/* readmore button*/
+
+
+/* readmore button1*/
+
+.btn-container1{
+  margin: auto;
+  height:50px;
+  width:190px;
+
+}
+.logo1 {
+  max-width: 100%;
+  margin: 1% 0;
+  height: auto;
+}
+
+.text1{
+display:none;
+}
+
+/* readmore button1*/
 
 
 
