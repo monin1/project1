@@ -42,28 +42,45 @@
 
 						<div class="container">
 
-							<h1> LogIn</h1>
-
-							<h3> Your are about to log in your account. </h3>
-
-							<label for="uname"><b>Username</b></label>
-							<input type="text" placeholder="Enter Username" name="uname" required>
-
-							<label for="psw"><b>Password</b></label>
-							<input type="password" placeholder="Enter Password" name="psw" required>
-
-							<button type="submit">Login</button>
-							<label>
-		        <input type="checkbox" checked="checked" name="remember"> Remember me
-		      </label>
+							<form name="inputForm2" Id="formElement2" action="signUp.html" onsubmit="return validateForm2();" method="post">
+	
+						<fieldset id="new">
+			
+							<legend id="ulegend2"> <h2> You are about to logIn your account</h2> </legend>
+			
+							<div id="divusercreate">
+			
+			
+								<label id="ulabel">UserName </label> 
+								<span class="errorgName" id="span1">Please give us your given name</span>
+								<span class="errorgName2" id="span1">Your given name is too short </span>
+								<input type="text" class="stylelist" id="gName" name="gName" placeholder="Your User Name" /> 
+							
+					
+								<label id="ulabel">Password</label>
+								<span class="erroropassword" id="span1">Please type your password</span>
+								<span class="erroropassword3" id="span1">Sorry, passward must have minimum 8 characters</span>
+								<input type="password" id="userPass" class="userPass" name="userPass" placeholder="Your password" />
+			
+			
+								<button <input type="submit" id="eventSignUp" value="Submit event" onclick="validateForm2();" /> LogIn</button>
+							
+								<label>
+								<input class = "checkbox1" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+								</label>
+							
+								<div class="container" style="background-color:#f1f1f1">
+								<button type="button" onclick="document.getElementById('loginNow').style.display='none'" class="cancelbtn1">Cancel</button>
+							
+							<span class="psw">Forgot <a href="#">password?</a></span>	
 						</div>
-
-						<div class="container" style="background-color:#f1f1f1">
-							<button type="button" onclick="document.getElementById('loginNow').style.display='none'" class="cancelbtn1">Cancel</button>
-							<span class="psw">Forgot <a href="#">password?</a></span>
-						</div>
-					</form>
 				</div>
+		
+			</div>
+		
+				</div> 
+				</fieldset>
+		</form
 
 				<button class="button2" onclick="document.getElementById('signUp').style.display='block'" style="width:auto;">Sign Up</button>
 
