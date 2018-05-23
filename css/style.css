@@ -884,7 +884,7 @@ https://codepen.io/rosswaycaster/pen/YPQzap
 
 
 
-
+/* Media 200-580*/
 
 @media only screen and (min-width: 200px) and (max-width:580px) {
   .body {
@@ -944,6 +944,39 @@ https://codepen.io/rosswaycaster/pen/YPQzap
     padding: 1%;
   }
 }
+
+/*media 581-900*/
+@media screen and (min-width:581px) and (max-width:900px) {
+  .body {
+    width: 92%;
+    clear: both;
+    font-size: 97%;
+  }
+  .content {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+  }
+  .contact-content {
+    width: 100%;
+    float: left;
+  }
+  .topcontent {
+    margin-bottom: 2%;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    padding: 1%;
+  }
+  .contact-sidebar {
+    width: 100%;
+    margin: 2% 0 2% 0;
+    padding: 1%;
+  }
+}
+
+
 
 /* CSS for Small Screen for Donation Form */
 
