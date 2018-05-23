@@ -115,40 +115,35 @@
  
   <div class="maincontent">
     <div class="contact-content">
-	    <article class="topcontent">
+      <article class="topcontent">
         <header>
           <h2>Alice Springs, NT</h2>
-          <image class="image1" src="images/alice_springs.jpg" alt="alicesprings" style="width:220px;height:280px;"></image>
         </header>
         <content>
-          <div class="located">
           <h4>Location</h4>
-          Shop 4, 54 Reg Harris Lane Alice Springs, Northern Territory 0870
-          <h4>Phone:(08) 8962 1412</h4>
-          <h4>Office Hour:</h4>
+          <p>Shop 4, 54 Reg Harris Lane Alice Springs, Northern Territory 0870
+          </p>
+          <h4>Phone</h4>
+          <p>(08) 8962 1412</p>
+          <h4>Office Hour</h4>
           <p>Mon – Fri 9:00am – 4:30pm</p>
-          </div>
         </content>
       </article>
       <article class="topcontent">
         <header>
           <h2>Tennant Creek, NT</h2>
-          <image class="image2" src="images/tc-map-2.png" alt="tc-map-2" style="width:220px;height:280px;"></image>
         </header>
         <content>
-            <div class="located">
-          <h4>Location:</h4>
+          <h4>Location</h4>
           <p>
             DAS office is located within the Estate Agents building 1 / 129 Paterson St. Tennant Creek, Northern Territory 0860
           </p>
-          <h4>Phone: (08) 8953 – 1422</h4>
-
-          <h4>Office Hour:</h4>
+          <h4>Phone</h4>
+          <p> (08) 8953 – 1422</p>
+          <h4>Office Hour</h4>
           <p>Mon – Fri 9:00am – 4:30pm</p>
-          </div>
         </content>
       </article>
-
     </div>
   </div>
 
@@ -159,38 +154,46 @@
           <h1>Contact Form</h1>
         </div>
         <div class="infoform">
+		
+          
           <h2>Please contact us form here</h2>
-          <form>
-            <p>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="First Name">
-              <input type="text" name="name" placeholder="Last Name">
-            </p>
-            
-            <p>
-              <label>E-mail</label>
-              <input type="email" name="email" placeholder="id@students.cdu.edu.au">
-            </p>
+		  
+          <form name="inputForm" id= "formElement" action="Index.html" onsubmit="return validateForm();" method="post">
+		
+			<fieldset id="framedisplay">
+			<p>
+			<label id="ulabel"> First Name:</label> <input type="text" name="name" id="name" placeholder="Your First Name" >
+		
+			</p>
+			<p>
+			<label id="ulabel">Last Name:</label><input type="text" id="lname" class="lname" name="lname" placeholder="Your Last Name" />
+			</p>
+			<p>
+			<label id="ulabel">E-mail address:</label> <input type="text" name="email" id="email" placeholder="Your email address">
+			</p>
 			
-            <p>
-              <label>Telephone</label>
+			<p>
+              <label>Telephone number</label>
               <input type="tel" name="phone" placeholder="ex. (061) 431-555555">
             </p>
-			<p>
-				<label for="subject">Please leave us a message </label>
-				<textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-            </p>   
-                <p class="submit-button">
-                  <button>Submit</button>
-          </form>
+			
+			<label for="subject">Please leave us a message here</label>
+			<textarea rows="4" cols="#" id="feedback" name="feedback" form="usrform" placeholder="Write something.."></textarea><br>
+			
+				<input type="submit" value="Submit">
+			
+			</fieldset>
+
+		</form>	
         </div>
+		
       </div>
     </div>
   </aside>
 
   <footer class="mainfooter">
 	
-		<p>Contact information: <a href="#">DAS@gmail.com</a> Emergency contact: 0889531422</p>
+		<p>Contact information: <a href="#">someone@example.com</a> Emergency contact: 0889531422</p>
 			
 	
 			<a href="#" target="_blank"><img src="images/logos/fb.png" alt="LogoFacebook" title="imageFacebook"/></a>
