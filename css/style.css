@@ -423,19 +423,19 @@ ul li a:hover {
 
 .name {
   color: black;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 0px;
 }
 
 .position {
   color: grey;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 0px;
 }
 
 .dgree {
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 15px;
 }
 
@@ -454,9 +454,9 @@ ul li a:hover {
 
 .actions a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   color: white;
-  padding: 12px;
+  padding: 11px;
 }
 
 .card a:hover {
