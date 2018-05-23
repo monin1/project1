@@ -31,6 +31,23 @@ $(document).ready(function() {
   });
 });
 
+/* button1*/
+$(document).ready(function() {
+  $(".toggle1").click(function() {
+    var elem = $(".toggle1").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $(".toggle1").text("Read Less");
+      $(".text1").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $(".toggle1").text("Read More");
+      $(".text1").slideUp();
+    }
+  });
+});
+
+
 window.onscroll = function() {goTopFunction()};
 
 function goTopFunction() {
