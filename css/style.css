@@ -60,7 +60,26 @@ display:none;
 
 /* readmore button1*/
 
+/* image alicesprings in contact us*/
+.image1{
+  float: right;
+  margin-top: -50px;
+}
+.located
+{
+  width: 40%;
+}
 
+.image2{
+  float: right;
+
+}
+.located1
+{
+  width: 40%;
+}
+
+/* image alicesprings in contact us*/
 
 
 /* LogIn and signUp Buttons*/
@@ -973,6 +992,28 @@ https://codepen.io/rosswaycaster/pen/YPQzap
     width: 100%;
     margin: 2% 0 2% 0;
     padding: 1%;
+  }
+	  /* image alicesprings in contact us*/
+  .image1{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+
+  }
+  .located{
+    float: left;
+    width: 100%;
+
+  }
+
+  .image2{
+    float: left;
+    clear: both;
+
+  }
+  .located1{
+    float: left;
+    width: 100%;
   }
 }
 
