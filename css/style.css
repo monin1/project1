@@ -527,7 +527,20 @@ margin: 0;
   font-size: 13px;
 }
 
+.bcards{
+  display: block;
 
+}
+
+.cardtabs ul{
+  width: 100%;
+}
+
+.tab{
+  width: 50%;
+  color: black;
+  float: left;
+}
 
 
 
