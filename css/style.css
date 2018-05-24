@@ -361,6 +361,7 @@ ul li a:hover {
 
 ul .active{
   border-bottom: 3px solid blue;
+  font-weight: bold;
 }
 
 .mimage {
