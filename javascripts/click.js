@@ -46,24 +46,17 @@ $(document).ready(function() {
     }
   });
 });
+	/* backtotop */
+	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-
-window.onscroll = function() {goTopFunction()};
-
-function goTopFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        document.getElementById("BackToTop").style.display = "block";
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
     } else {
-        document.getElementById("BackToTop").style.display = "none";
+        document.getElementById("myBtn").style.display = "none";
     }
-}
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-
-
+} //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
 
 
 
