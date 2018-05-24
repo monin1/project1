@@ -99,7 +99,7 @@ display:none;
 /* LogIn and signUp Buttons*/
 
 input[type=text], input[type=password] {
-    width: 85%;
+    width: 100%;
     padding: 12px;
     margin: 0px 20px 22px 10px;
     display: inline-block;
