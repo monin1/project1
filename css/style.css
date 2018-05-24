@@ -359,6 +359,10 @@ ul li a:hover {
   border-bottom: 3px solid blue;
 }
 
+ul .active{
+  border-bottom: 3px solid blue;
+}
+
 .mimage {
   width: 100%;
   float: center;
