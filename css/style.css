@@ -85,7 +85,7 @@ display:none;
 	 
  }
  
-#span1{
+#span1, #span2, #span3, #span4{
 	font-size:18px;
 	float:left;
 	color:red;
