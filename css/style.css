@@ -39,7 +39,6 @@ display:none;
 }
 /* readmore button*/
 
-
 /* readmore button1*/
 
 .btn-container1{
@@ -57,21 +56,6 @@ display:none;
 .text1{
 display:none;
 }
-
-.ulabel{
-	 float:left;
-	 clear: both;
-	 
- }
- 
-#span1{
-	font-size:18px;
-	float:left;
-	color:red;
-	display: none;
-	width: 100%;
-}
-
 /* readmore button1*/
 
 /* image alicesprings in contact us*/
@@ -93,7 +77,22 @@ display:none;
   width: 40%;
 }
 
-/* image alicesprings in contact us*/
+
+
+.ulabel{
+	 float:left;
+	 clear: both;
+	 
+ }
+ 
+#span1{
+	font-size:18px;
+	float:left;
+	color:red;
+	display: none;
+	width: 100%;
+}
+
 
 
 /* LogIn and signUp Buttons*/
@@ -907,6 +906,28 @@ https://codepen.io/rosswaycaster/pen/YPQzap
     width: 100%;
     margin: 2% 0 2% 0;
     padding: 1%;
+  }
+	/* image alicesprings in contact us*/
+  .image1{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+
+  }
+  .located{
+    float: left;
+    width: 100%;
+
+  }
+
+  .image2{
+    float: left;
+    clear: both;
+
+  }
+  .located1{
+    float: left;
+    width: 100%;
   }
 }
 
