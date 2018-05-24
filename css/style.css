@@ -79,7 +79,7 @@ display:none;
 
 
 
-.ulabel{
+.ulabel, .ulabel1{
 	 float:left;
 	 clear: both;
 	 
@@ -435,27 +435,6 @@ ul li a:hover {
 
 * {
   box-sizing: border-box;
-}
-
-
-
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 200px;
-  max-height: 280px;
-  margin: 5px;
-}
-
-.name2 {
-  color: black;
-  font-size: 21px;
-  line-height: 0px;
-}
-
-.award {
-  color: grey;
-  font-size: 15px;
-  line-height: 0px;
 }
 
 .card {
