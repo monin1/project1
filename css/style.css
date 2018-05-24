@@ -58,6 +58,20 @@ display:none;
 display:none;
 }
 
+.ulabel{
+	 float:left;
+	 clear: both;
+	 
+ }
+ 
+#span1{
+	font-size:18px;
+	float:left;
+	color:red;
+	display: none;
+	width: 100%;
+}
+
 /* readmore button1*/
 
 /* image alicesprings in contact us*/
